@@ -1,0 +1,38 @@
+/* <=================common styles are here============> */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Work Sans;
+
+}
+/* <================header section start here==========> */
+header{
+    background-image: url('../images/banner/banner3.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.header-content{
+    text-align: right;
+    margin-right: 230px;
+}
+.header-heading{
+    color: #FFF;;
+font-size: 65px;
+font-weight: 700;;
+padding-top: 286px;
+}
+.header-ditels{
+    color: #FFF;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+margin-top: 24px;
+}
+.btn{
+    color: #005FAC;
+font-size: 20px;
+font-weight: 600;
+margin-top: 32px;
+margin-bottom: 280px;
+padding: 20px 26px;
+}
