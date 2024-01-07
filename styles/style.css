@@ -44,7 +44,7 @@ padding: 20px 26px;
     align-items: center;
     gap: 105px;
 }
-.section-header{
+.hero-header{
     color: #151414;
 font-size: 40px;
 font-weight: 700;
@@ -72,4 +72,35 @@ ul{
 ul li:before {
     content: '✓';
     color: #42e25d;
+}
+.section-header{
+    text-align: center;
+    
+    color: #151414;
+font-size: 40px;
+font-weight: 700;
+}
+.plans-contener{
+    display: flex;
+    justify-content: center;
+    gap:100px ;
+}
+.plans > h4{
+    color:#151414;
+text-align: center;
+font-size: 30px;
+font-weight: 700;
+
+}
+.plans>p{
+    color: var(--Dark-03, #737272);
+text-align: center;
+font-family: Work Sans;
+font-size: 25px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.plans >img{
+    margin-left: 50px;
 }
