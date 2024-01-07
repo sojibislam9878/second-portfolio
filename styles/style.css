@@ -52,6 +52,7 @@ header {
   margin-top: 50px;
   margin-bottom: 24px;
 }
+/* <=============hero sectio start============> */
 .hero-info {
   color: #444343;
   font-weight: 400;
@@ -80,6 +81,7 @@ ul li:before {
   font-weight: 700;
   margin-bottom: 50px;
 }
+/* <===================plans section start here===============> */
 .plans-contener {
   display: flex;
   justify-content: center;
@@ -93,18 +95,16 @@ ul li:before {
   margin-bottom: 14px;
 }
 .plans > p {
-  color: var(--Dark-03, #737272);
+  color: #737272;
   text-align: center;
-  font-family: Work Sans;
   font-size: 25px;
-  font-style: normal;
   font-weight: 500;
-  line-height: normal;
 }
 .plans > img {
   margin-left: 50px;
   margin-bottom: 25px;
 }
+/* <================banner section star here============> */
 .banner-content {
   width: 100%;
   max-width: 1300px;
@@ -121,6 +121,7 @@ ul li:before {
   font-size: 40px;
   font-weight: 700;
 }
+/* <==================footer section start here====================> */
 #footer {
   background: #151414;
   padding: 130px 230px;
@@ -144,12 +145,8 @@ ul li:before {
 
 .footer-heading2 {
   color: #fff;
-
-  font-family: Work Sans;
   font-size: 25px;
-  font-style: normal;
   font-weight: 600;
-  line-height: normal;
   margin-bottom: 30px;
 }
 .foot-btn {
