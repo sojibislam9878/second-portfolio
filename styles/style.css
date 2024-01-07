@@ -42,7 +42,7 @@ padding: 20px 26px;
     margin:140px  auto;
     justify-content: center;
     align-items: center;
-    gap: 105px;
+    gap: 210px;
 }
 .hero-header{
     color: #151414;
@@ -84,7 +84,7 @@ margin-bottom: 50px;
 .plans-contener{
     display: flex;
     justify-content: center;
-    gap:100px ;
+    gap:190px ;
 }
 .plans > h4{
     color:#151414;
@@ -106,4 +106,26 @@ line-height: normal;
 .plans >img{
     margin-left: 50px;
     margin-bottom: 25px;
+}
+.banner{
+}
+.banner-content{
+    width: 100%;
+    max-width: 1300px;
+    max-height: 200px;
+    background-image:  url(../images/gradient1.png) , url('../images/watch.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 135px auto;
+    padding: 60px 65px;
+    border-radius: 9px;
+}
+.banner-heading{
+    color: #FFF;
+
+font-family: Work Sans;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
 }
