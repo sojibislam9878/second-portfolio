@@ -34,6 +34,16 @@ header {
   margin-top: 32px;
   margin-bottom: 280px;
   padding: 20px 26px;
+  border: none;
+  border-radius: 5px;
+  transition: 300ms;
+}
+
+.btn:hover{
+    color: white;
+    background-color: #005fac;
+    cursor: pointer;
+    outline: white 1px solid;
 }
 .hero {
   display: flex;
@@ -156,6 +166,14 @@ ul li:before {
   border-radius: 8px;
   background: #005fac;
   padding: 20px 36px;
+  border: none;
+  transition: 500ms;
+}
+
+.foot-btn:hover{
+    color: #005fac;
+    background-color: white;
+    cursor: pointer;
 }
 .footer-column1 > input,
 .footer-column1 > button {
