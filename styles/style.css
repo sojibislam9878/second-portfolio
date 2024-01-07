@@ -36,3 +36,40 @@ margin-top: 32px;
 margin-bottom: 280px;
 padding: 20px 26px;
 }
+.hero{
+    display:flex;
+    width: 75%;
+    margin:140px  auto;
+    justify-content: center;
+    align-items: center;
+    gap: 105px;
+}
+.section-header{
+    color: #151414;
+font-size: 40px;
+font-weight: 700;
+}
+.other{
+    margin-top: 50px;
+    margin-bottom: 24px;
+}
+.hero-info{
+    color: #444343;
+font-weight: 400;
+line-height: 26px;
+margin-bottom: 16px;
+}
+.hero-list{
+    color:#444343;
+font-size: 16px;;
+font-weight: 400;
+line-height: 26px;
+margin-bottom: 8px;
+}
+ul{
+    list-style: none;
+}
+ul li:before {
+    content: '✓';
+    color: #42e25d;
+}
