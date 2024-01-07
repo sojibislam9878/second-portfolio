@@ -79,6 +79,7 @@ ul li:before {
     color: #151414;
 font-size: 40px;
 font-weight: 700;
+margin-bottom: 50px;
 }
 .plans-contener{
     display: flex;
@@ -90,6 +91,7 @@ font-weight: 700;
 text-align: center;
 font-size: 30px;
 font-weight: 700;
+margin-bottom: 14px;
 
 }
 .plans>p{
@@ -103,4 +105,5 @@ line-height: normal;
 }
 .plans >img{
     margin-left: 50px;
+    margin-bottom: 25px;
 }
